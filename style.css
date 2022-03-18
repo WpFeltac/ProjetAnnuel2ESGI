@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	margin: 0;
+}
+body {
+	font-family: montserrat;
+	margin: 0;
+}
+
+#header {
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+#ligne {
+	margin-top: -20px;
+}
+#cadre {
+	max-height: 500px;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	border: solid;
+	border-width: 5px;
+	border-color: #309C34;
+	border-radius: 20px;
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+#txt {
+	width: 350px;
+	height: 50px;
+	padding: 10px;
+	padding-left: 20px;
+	background-color: #dedede;
+	border: none;
+	font-size: 17px;
+	border-bottom: solid;
+	border-bottom-color: white;
+}
+#txt:focus {
+	outline: none;
+	border-bottom-color: #309C34;
+	transition-duration: 300ms;
+}
+#mdp {
+	margin-right: 35px;
+	margin-top: 3px;
+	text-align: right;
+	color: #309C34;
+}
+#mdp a:link {
+	color: #309C34;
+}
+#mdp a:visited {
+	color: #309C34;
+}
+#bouton {
+	width: 200px;
+	font-family: montserrat;
+	border-width: 3px;
+	border-color: black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#bouton:hover {
+	cursor: pointer;
+	color: white;
+	border-color: #309C34;
+	background-color: #309C34;
+	transition-duration: 300ms;
+}
+#connexion {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 750;
+}
+#footer {
+	background: #dedede;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+#container {
+	padding-left: 30px;
+}
+#container2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/*Responsive*/
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+	#header {
+		font-size: 25px;
+		margin-top: 20px;
+	}
+	#ligne {
+		margin-top: -10px;
+	}
+	#cadre {
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 200px;
+		margin-top: 30px;
+		border: solid;
+		border-radius: 20px;
+	}
+	#logo {
+		width: 50px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
